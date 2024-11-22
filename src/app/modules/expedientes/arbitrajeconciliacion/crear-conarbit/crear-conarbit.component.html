@@ -2,7 +2,7 @@
   <!--begin::Modal header-->
   <div class="modal-header" id="kt_modal_add_user_header">
     <!--begin::Modal title-->
-    <h2 class="fw-bolder">REGISTRAR NUEVO PROCESO JUDICIAL</h2>
+    <h2 class="fw-bolder">REGISTRAR NUEVA CONCILIACION O ARBITRAJE</h2>
 
     <!--end::Modal title-->
     <!--begin::Close-->
@@ -36,77 +36,56 @@
 
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Distrito Judicial</label>
+          <label class="required fw-bold fs-6 mb-2">Tipo</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">HUANCAVELICA</option>
-            <option value="">HUÁNUCO</option>
-            <option value="">CUZCO</option>
-            <option value="">HUAURA</option>
+            <option value="">ARBITRAJE AD HOC </option>
+            <option value="">ARBITRAJE INSTITUCIONAL</option>
+            <option value="">CONCILIACION</option>
           </select>
         </div>
 
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Dependencia</label>
+          <label class="required fw-bold fs-6 mb-2">Seleccionar</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">Juzgado Mixto - AMBO</option>
-            <option value="">Juzgado de Paz Letrado - AMBO</option>
-            <option value="">Juzgado Mixto - LA UNION</option>
+            <option value="">Registrar nuevo tribunal arbitral</option>
           </select>
         </div>
       </div><br>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Especialidad</label>
+          <label class="required fw-bold fs-6 mb-2">Solicitante</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">CIVIL</option>
-            <option value="">COMERCIAL</option>
-            <option value="">CONTENSIOSO ADMINISTRATIVO</option>
+            <option value="">CONTRATISTA</option>
+            <option value="">GOBIERNO REGIONAL HUÁNUCO</option>
           </select>
+        </div>
+
+        <div class="col-md-3">
+          <!--begin::Label-->
+          <label class="required fw-bold fs-6 mb-2">Monto</label>
+          <!--end::Label-->
+          <input type="number" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Monto" />
         </div>
 
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Instancia</label>
+          <label class="required fw-bold fs-6 mb-2">Pretenciones</label>
           <!--end::Label-->
-          <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
-            <option value="">-- Seleccione --</option>
-            <option value="">Primera instancia</option>
-            <option value="">Segunda Instancia</option>
-            <option value="">Casación</option>
-          </select>
-        </div>
-
-        <div class="col-md-4">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Estado</label>
-          <!--end::Label-->
-          <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
-            <option value="">-- Seleccione --</option>
-            <option value="">Etapa Postulatoria</option>
-            <option value="">Constentación de Demanda</option>
-            <option value="">Audiencia de Saneamiento Procesal</option>
-          </select>
+          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Pretenciones" />
         </div>
       </div><br>
 
       <div class="row">
-        <div class="col-md-6">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Especialista Legal</label>
-          <!--end::Label-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Especialista" />
-        </div>
-
-        <div class="col-md-6">
+        <div class="col-md-7">
           <!--begin::Label-->
           <label class="required fw-bold fs-6 mb-2">Personal Encargado</label>
           <!--end::Label-->
@@ -118,49 +97,38 @@
             <option value="">MADELINA RAQUEL, RICAPA MAUTINO</option>
           </select>
         </div>
-      </div><br>
 
-      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Materia</label>
+          <label class="required fw-bold fs-6 mb-2">Estado</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">Incumplimiento de deberes funcionales</option>
-            <option value="">Nulidad de Resolución Administrativa</option>
-            <option value="">Acción de cumplimiento</option>
+            <option value="">Solicitud arbitral</option>
+            <option value="">Instlación del tribunal arbitral</option>
+            <option value="">Etapa postulatoria</option>
           </select>
-        </div>
-
-        <div class="col-md-3">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Pretenciones</label>
-          <!--end::Label-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Pretenciones" />
-        </div>
-
-        <div class="col-md-3">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Monto</label>
-          <!--end::Label-->
-          <input type="number" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Monto" />
         </div>
       </div><br>
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Demandante</label>
+          <label class="required fw-bold fs-6 mb-2">Contratista</label>
           <!--end::Label-->
           <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Demandante" />
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-5">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Demandado</label>
+          <label class="required fw-bold fs-6 mb-2">Contrato</label>
           <!--end::Label-->
           <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Demandado" />
+        </div>
+
+        <div class="col-md-2">
+          <label class="fw-bold fs-6 mb-2">   </label>
+          <button type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" value="BUSCAR">BUSCAR</button>
         </div>
       </div><br>
 

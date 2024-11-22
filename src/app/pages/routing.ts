@@ -46,6 +46,19 @@ const Routing: Routes = [
     path: 'apps/permissions',
     loadChildren: () => import('./permission/permission.module').then((m) => m.PermissionModule),
   },
+  //MIS MODULOS
+  {
+    path: 'procesosjudiciales',
+    loadChildren: () => import('../modules/expedientes/procesosjudiciales/procesosjudiciales.module').then((m) => m.ProcesosjudicialesModule),
+  },
+  {
+    path: 'procesospenales',
+    loadChildren: () => import('../modules/expedientes/procesospenales/procesospenales.module').then((m) => m.ProcesospenalesModule),
+  },
+  {
+    path: 'arbitrajeconciliacion',
+    loadChildren: () => import('../modules/expedientes/arbitrajeconciliacion/arbitrajeconciliacion.module').then((m) => m.ArbitrajeconciliacionModule),
+  },
   {
     path: '',
     redirectTo: '/dashboard',

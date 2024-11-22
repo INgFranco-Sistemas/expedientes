@@ -9,7 +9,7 @@ import { EditarJudicialesComponent } from './editar-judiciales/editar-judiciales
 import { EliminarJudicialesComponent } from './eliminar-judiciales/eliminar-judiciales.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgbModule, NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbModalModule, NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 import { InlineSVGModule } from 'ng-inline-svg-2';
 
 
@@ -19,7 +19,7 @@ import { InlineSVGModule } from 'ng-inline-svg-2';
     ListaJudicialesComponent,
     CrearJudicialesComponent,
     EditarJudicialesComponent,
-    EliminarJudicialesComponent
+    EliminarJudicialesComponent,
   ],
   imports: [
     CommonModule,
@@ -30,6 +30,7 @@ import { InlineSVGModule } from 'ng-inline-svg-2';
     ReactiveFormsModule,
     InlineSVGModule,
     NgbModalModule,
+    NgbPaginationModule,
   ]
 })
 export class ProcesosjudicialesModule { }

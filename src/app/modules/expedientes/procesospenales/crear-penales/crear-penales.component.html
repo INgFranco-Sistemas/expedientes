@@ -27,11 +27,13 @@
       <div class="row">
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">N° de Expedient</label>
+          <label class="required fw-bold fs-6 mb-2">Especialidad</label>
           <!--end::Label-->
-          <!--begin::Input-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="N° Expediente" />
-          <!--end::Input-->
+          <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
+            <option value="">-- Seleccione --</option>
+            <option value="">Carpeta Fiscal</option>
+            <option value="">Expediente Judicial</option>
+          </select>
         </div>
 
         <div class="col-md-4">
@@ -63,38 +65,58 @@
       <div class="row">
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Especialidad</label>
+          <label class="required fw-bold fs-6 mb-2">N° de Expediente</label>
+          <!--end::Label-->
+          <!--begin::Input-->
+          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0"
+            placeholder="N° Expediente" />
+          <!--end::Input-->
+        </div>
+
+        <div class="col-md-4">
+          <!--begin::Label-->
+          <label class="required fw-bold fs-6 mb-2">Materia</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">CIVIL</option>
-            <option value="">COMERCIAL</option>
-            <option value="">CONTENSIOSO ADMINISTRATIVO</option>
+            <option value="">Incumplimiento de deberes funcionales</option>
           </select>
         </div>
 
         <div class="col-md-4">
           <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Instancia</label>
+          <label class="required fw-bold fs-6 mb-2">Etapa</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">Primera instancia</option>
-            <option value="">Segunda Instancia</option>
-            <option value="">Casación</option>
+            <option value="">Investigación preparatoria</option>
           </select>
         </div>
+      </div><br>
 
-        <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-5">
           <!--begin::Label-->
           <label class="required fw-bold fs-6 mb-2">Estado</label>
           <!--end::Label-->
           <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
             <option value="">-- Seleccione --</option>
-            <option value="">Etapa Postulatoria</option>
-            <option value="">Constentación de Demanda</option>
-            <option value="">Audiencia de Saneamiento Procesal</option>
           </select>
+        </div>
+
+        <div class="col-md-4">
+          <!--begin::Label-->
+          <label class="required fw-bold fs-6 mb-2">Pretenciones</label>
+          <!--end::Label-->
+          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0"
+            placeholder="Pretenciones" />
+        </div>
+
+        <div class="col-md-3">
+          <!--begin::Label-->
+          <label class="required fw-bold fs-6 mb-2">Monto</label>
+          <!--end::Label-->
+          <input type="number" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Monto" />
         </div>
       </div><br>
 
@@ -103,7 +125,8 @@
           <!--begin::Label-->
           <label class="required fw-bold fs-6 mb-2">Especialista Legal</label>
           <!--end::Label-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Especialista" />
+          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0"
+            placeholder="Especialista" />
         </div>
 
         <div class="col-md-6">
@@ -118,34 +141,7 @@
             <option value="">MADELINA RAQUEL, RICAPA MAUTINO</option>
           </select>
         </div>
-      </div><br>
 
-      <div class="row">
-        <div class="col-md-6">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Materia</label>
-          <!--end::Label-->
-          <select class="form-control form-select-solid fw-bolder" name="XXXXX" placeholder="Select">
-            <option value="">-- Seleccione --</option>
-            <option value="">Incumplimiento de deberes funcionales</option>
-            <option value="">Nulidad de Resolución Administrativa</option>
-            <option value="">Acción de cumplimiento</option>
-          </select>
-        </div>
-
-        <div class="col-md-3">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Pretenciones</label>
-          <!--end::Label-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Pretenciones" />
-        </div>
-
-        <div class="col-md-3">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Monto</label>
-          <!--end::Label-->
-          <input type="number" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Monto" />
-        </div>
       </div><br>
 
       <div class="row">
@@ -153,7 +149,8 @@
           <!--begin::Label-->
           <label class="required fw-bold fs-6 mb-2">Demandante</label>
           <!--end::Label-->
-          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Demandante" />
+          <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0"
+            placeholder="Demandante" />
         </div>
 
         <div class="col-md-6">
@@ -176,14 +173,7 @@
             <option value="">ALTA</option>
           </select>
         </div>
-
-        <div class="col-md-6">
-          <!--begin::Label-->
-          <label class="required fw-bold fs-6 mb-2">Subir archivo</label>
-          <!--end::Label-->
-          <input type="file" name="name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Demandado" />
-        </div>
-      </div><br>
+      </div>
 
       <!--begin::Actions-->
       <div class="text-center pt-15">
